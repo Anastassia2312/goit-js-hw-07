@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.item li {
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.galleryImage {
+  max-width: 100%;
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.galleryItem {
+  width: calc((100% - 48px) / 3);
+}
+
+input {
+  padding: 8px 16px;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  height: 40px;
+}
+
+input:hover {
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+#name-input:placeholder-shown {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+label {
+  display: block;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  background-color: #4e75ff;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+.login-form > button {
+  margin-top: 16px;
+}
+
+.widget > p {
+  text-align: center;
+}
+
+.change-color {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+#controls > input {
+  width: 150px;
+}
+
+#controls > button {
+  width: 150px;
+}
+
+#controls > [data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#controls > [data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
