@@ -1,5 +1,5 @@
 "use strict";
-/*const categoriesList = document.querySelector("#categories");
+const categoriesList = document.querySelector("#categories");
 const categories = categoriesList.querySelectorAll(".item");
 const number = console.log(`Number of categories: ${categories.length}`);
 categories.forEach((category) => {
@@ -8,4 +8,4 @@ categories.forEach((category) => {
 
   console.log(`Category: ${categoryName}`);
   console.log(`Elements: ${categoryElements}`);
-});*/
+});

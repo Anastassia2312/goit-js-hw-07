@@ -1,5 +1,5 @@
 "use strict";
-/*const changeColorBtn = document.querySelector(".change-color");
+const changeColorBtn = document.querySelector(".change-color");
 const color = document.querySelector(".color");
 
 function getRandomHexColor() {
@@ -12,4 +12,4 @@ changeColorBtn.addEventListener("click", () => {
   const randomColor = getRandomHexColor();
   document.body.style.backgroundColor = randomColor;
   color.textContent = randomColor;
-});*/
+});
