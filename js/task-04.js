@@ -14,11 +14,10 @@ const form = (event) => {
   } else {
     console.log(
       `Email:${emailValue}
-       Password:${passwordValue}`
+       Password:${passwordValue}`,
+      loginForm.reset()
     );
   }
-
-  loginForm.reset();
 };
 
 loginForm.addEventListener("submit", form);
